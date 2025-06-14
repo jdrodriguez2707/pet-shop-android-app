@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="200dp"
+    android:height="200dp"
+    android:viewportWidth="200"
+    android:viewportHeight="200">
+
+    <!-- Fondo -->
+    <path
+        android:fillColor="#E0E0E0"
+        android:pathData="M0,0h200v200h-200z" />
+
+    <!-- Icono de mascota simple -->
+    <path
+        android:fillColor="#BDBDBD"
+        android:pathData="M100,70 C85,70 75,80 75,95 C75,110 85,120 100,120 C115,120 125,110 125,95 C125,80 115,70 100,70 Z" />
+
+    <!-- Orejas -->
+    <path
+        android:fillColor="#BDBDBD"
+        android:pathData="M75,85 L65,65 L80,75 Z" />
+    <path
+        android:fillColor="#BDBDBD"
+        android:pathData="M125,85 L135,65 L120,75 Z" />
+
+    <!-- Cola -->
+    <path
+        android:fillColor="#BDBDBD"
+        android:pathData="M100,120 Q100,140 120,150 Q100,145 100,120 Z" />
+</vector>
+
